@@ -22,6 +22,11 @@ Launchpad AI is a proactive, AI-powered productivity companion. Instead of just 
 
 ## 🚀 How to Run Locally
 
+###frontend setup
+cd frontend
+npm install
+npm run dev
+
  ### 1. Backend Setup
 ```bash
 cd backend
