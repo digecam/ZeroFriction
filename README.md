@@ -22,7 +22,7 @@ Launchpad AI is a proactive, AI-powered productivity companion. Instead of just 
 
 ## 🚀 How to Run Locally
 
-### 1. Backend Setup
+ ### 1. Backend Setup
 ```bash
 cd backend
 python -m venv venv
@@ -30,3 +30,8 @@ source venv/Scripts/activate  # (or venv/bin/activate on Mac)
 pip install -r requirements.txt
 # Create a .env file and add your GEMINI_API_KEY
 uvicorn main:app --reload
+
+###frontend setup
+cd frontend
+npm install
+npm run dev
